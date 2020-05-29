@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form name="buckysForm">
+	Username: <input type="text" name="username"/> 
+	Password: <input type="password" name="password"/>
+	<input type="submit" value="SUBMIT"/>
+</form>
+<script type="text/javascript">
+	/*//how to identify the form
+	var x=document.forms[0].length; //javascript create array of forms so this is first form so 0
+	document.write(x);*/
+	var x=document.forms[0].elements[0].name; //username input
+	document.write(x);
+
+</script>
+</body>
+</html>
